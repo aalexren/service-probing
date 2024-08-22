@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tele2"
+version = "0.1.0"
+description = ""
+authors = ["aalexren <chernicaar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+fire = "^0.6.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
